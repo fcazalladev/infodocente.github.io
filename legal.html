@@ -1,56 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Legal Notice – Info Docente</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; }
-h1, h2, h3 { color: #333; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Legal – Info Docente</title>
+    <style>
+        /* --- ESTILOS GENERALES Y RESET --- */
+        :root {
+            --color-principal: #020731; /* Azul corporativo */
+            --color-secundario: #2980b9; /* Azul más oscuro para hover */
+            --color-fondo: #f8f9fa; /* Fondo claro */
+            --color-texto: #333; /* Texto oscuro principal */
+            --color-borde: #ddd;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--color-texto);
+            background-color: var(--color-fondo);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- CONTENEDOR PRINCIPAL --- */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* --- ENCABEZADO (HEADER) --- */
+        header {
+            background-color: var(--color-principal);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin: -20px -20px 20px -20px; /* Extiende el header al borde del container */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* --- CONTENIDO DEL AVISO --- */
+        h2 {
+            color: var(--color-primario);
+            border-bottom: 2px solid var(--color-borde);
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: var(--color-texto);
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        p, ul {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        strong {
+            color: var(--color-secundario);
+        }
+
+        /* --- ENLACES --- */
+        a {
+            color: var(--color-principal);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--color-secundario);
+            text-decoration: underline;
+        }
+
+        /* --- PIE DE PÁGINA (FOOTER) --- */
+        footer {
+            text-align: center;
+            padding: 20px 0 0;
+            margin-top: 30px;
+            border-top: 1px solid var(--color-borde);
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* --- RESPONSIVE DESIGN (Ajustes para pantallas pequeñas) --- */
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+
+            header {
+                padding: 15px 0;
+                margin: -15px -15px 15px -15px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+
+    </style>
 </head>
 <body>
 
-<h1>Legal Notice – Info Docente</h1>
-<p><strong>Last updated:</strong> [Insert date]</p>
+    <div class="container">
+        <header>
+            <h1>Aviso Legal – Info Docente</h1>
+        </header>
 
-<h2>1. Ownership</h2>
-<p><strong>Owner:</strong> Fran Cazalla<br>
-<strong>Email:</strong> infodocente@gmail.com<br>
-<strong>Location:</strong> Spain</p>
+        <section id="introduccion">
+            <p><strong>Última Actualización:</strong> 28 de noviembre de 2025</p>
+            <p>El presente Aviso Legal regula el acceso y uso de la aplicación móvil **Info Docente** (en adelante, "la Aplicación") y de cualquier sitio web asociado a la misma.</p>
+        </section>
 
-<h2>2. Purpose</h2>
-<p>This Legal Notice regulates the use of the Info Docente application and any associated websites.</p>
+        <section id="titularidad">
+            <h2>1. Titularidad</h2>
+            <p><strong>Titular:</strong> Fran Cazalla<br>
+            <strong>Correo electrónico de Contacto:</strong> <a href="mailto:infodocente@gmail.com">infodocente@gmail.com</a><br>
+            <strong>Ubicación:</strong> España</p>
+        </section>
 
-<h2>3. Intellectual Property</h2>
-<p>
-All content, design, logos, and code belong to the developer.  
-Users may not copy, modify, or redistribute the app without permission.
-</p>
+        <section id="objeto">
+            <h2>2. Objeto</h2>
+            <p>Este documento establece las condiciones que rigen el uso de la Aplicación y el acceso a los contenidos y servicios disponibles en ella.</p>
+        </section>
 
-<h2>4. Acceptable Use</h2>
-<p>
-Users agree not to misuse the app, damage the service, or attempt unauthorized access.
-</p>
+        <section id="propiedad-intelectual">
+            <h2>3. Propiedad Intelectual</h2>
+            <p>
+            Todos los contenidos, diseños, logotipos, elementos gráficos y código fuente de la Aplicación son propiedad exclusiva del desarrollador.
+            Queda estrictamente prohibida la copia, modificación, reproducción o redistribución de la aplicación o sus partes sin la autorización expresa del titular.
+            </p>
+        </section>
 
-<h2>5. Data Protection</h2>
-<p>
-Personal data is managed according to the Privacy Policy.
-</p>
+        <section id="uso-aceptable">
+            <h2>4. Uso Aceptable</h2>
+            <p>
+            El usuario se compromete a hacer un uso adecuado y lícito de la Aplicación. El usuario no deberá:
+            </p>
+            <ul>
+                <li>Utilizar la Aplicación de forma que cause daño o deterioro al servicio.</li>
+                <li>Intentar el acceso no autorizado a los sistemas o redes de la Aplicación.</li>
+                <li>Utilizar la Aplicación para fines distintos a los previstos.</li>
+            </ul>
+        </section>
 
-<h2>6. Responsibility</h2>
-<p>
-The developer is not responsible for service interruptions, external data errors, or misuse by users.
-</p>
+        <section id="proteccion-datos">
+            <h2>5. Protección de Datos</h2>
+            <p>
+            El tratamiento de los datos personales de los usuarios se rige por la <a href="[URL_A_POLITICA_PRIVACIDAD]">Política de Privacidad</a>, la cual se debe consultar para obtener información detallada sobre la recopilación y gestión de datos.
+            </p>
+        </section>
 
-<h2>7. Disclaimer</h2>
-<p>
-Info Docente is independent and not affiliated with the Junta de Andalucía.  
-Data is informational and may not always be up to date.
-</p>
+        <section id="responsabilidad">
+            <h2>6. Responsabilidad</h2>
+            <p>
+            El desarrollador no se hace responsable de las interrupciones en el servicio, errores derivados de información externa, o del uso indebido que los usuarios puedan hacer de la Aplicación.
+            </p>
+        </section>
 
-<h2>8. Governing Law</h2>
-<p>This notice is governed by Spanish law.</p>
+        <section id="descargo-responsabilidad">
+            <h2>7. Descargo de Responsabilidad (Disclaimer)</h2>
+            <p>
+            Info Docente es una aplicación independiente y no está afiliada, respaldada ni patrocinada por la **Junta de Andalucía** ni por ninguna otra entidad u organismo oficial.
+            La información y los datos gestionados en la Aplicación tienen un carácter meramente informativo y de ayuda a la organización personal del usuario. El desarrollador no garantiza que la información externa sea siempre precisa o esté actualizada.
+            </p>
+        </section>
+
+        <section id="ley-aplicable">
+            <h2>8. Ley Aplicable y Jurisdicción</h2>
+            <p>Este Aviso Legal se rige en todos y cada uno de sus extremos por la **ley española**. Para la resolución de cualquier controversia que pudiera surgir, las partes se someten a los Juzgados y Tribunales de la jurisdicción del titular.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Info Docente. Todos los derechos reservados.</p>
+        </footer>
+    </div>
 
 </body>
 </html>
