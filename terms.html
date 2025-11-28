@@ -1,65 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Terms & Conditions – Info Docente</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; }
-h1, h2, h3 { color: #333; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Condiciones de Uso – Info Docente</title>
+    <style>
+        /* --- ESTILOS GENERALES Y RESET --- */
+        :root {
+            --color-principal: #020731; /* Azul corporativo */
+            --color-secundario: #2980b9; /* Azul más oscuro para hover */
+            --color-fondo: #f8f9fa; /* Fondo claro */
+            --color-texto: #333; /* Texto oscuro principal */
+            --color-borde: #ddd;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--color-texto);
+            background-color: var(--color-fondo);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- CONTENEDOR PRINCIPAL --- */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* --- ENCABEZADO (HEADER) --- */
+        header {
+            background-color: var(--color-principal);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin: -20px -20px 20px -20px; /* Extiende el header al borde del container */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* --- CONTENIDO DE LOS TÉRMINOS --- */
+        h2 {
+            color: var(--color-primario);
+            border-bottom: 2px solid var(--color-borde);
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--color-secundario);
+        }
+
+        /* --- ENLACES --- */
+        a {
+            color: var(--color-principal);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--color-secundario);
+            text-decoration: underline;
+        }
+
+        /* --- PIE DE PÁGINA (FOOTER) --- */
+        footer {
+            text-align: center;
+            padding: 20px 0 0;
+            margin-top: 30px;
+            border-top: 1px solid var(--color-borde);
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* --- RESPONSIVE DESIGN (Ajustes para pantallas pequeñas) --- */
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+
+            header {
+                padding: 15px 0;
+                margin: -15px -15px 15px -15px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+
+    </style>
 </head>
 <body>
 
-<h1>Terms and Conditions of Use – Info Docente</h1>
-<p><strong>Last updated:</strong> [Insert date]</p>
+    <div class="container">
+        <header>
+            <h1>Términos y Condiciones de Uso – Info Docente</h1>
+        </header>
 
-<h2>1. Acceptance</h2>
-<p>By creating an account or using the app, the user accepts these Terms.</p>
+        <section id="introduccion">
+            <p><strong>Última Actualización:</strong> 28 de noviembre de 2025</p>
+            <p>Estos Términos y Condiciones (en adelante, "los Términos") rigen el uso de la aplicación móvil **Info Docente** (en adelante, "la Aplicación"). Al crear una cuenta o utilizar la Aplicación, el usuario acepta plenamente estas condiciones.</p>
+        </section>
 
-<h2>2. User Registration</h2>
-<p>Users must provide a valid email, password, and optionally credentials for official portals.</p>
+        <section id="aceptacion">
+            <h2>1. Aceptación de los Términos</h2>
+            <p>La creación de una cuenta o el uso continuado de la Aplicación constituye la aceptación total de los Términos aquí descritos, incluyendo las políticas de privacidad y aviso legal asociadas.</p>
+        </section>
 
-<h2>3. Access to External Services</h2>
-<p>
-The app uses user-provided credentials to read information from official portals.  
-Info Docente does not modify data or act on behalf of the user.
-</p>
+        <section id="registro">
+            <h2>2. Registro de Usuario</h2>
+            <p>Para utilizar la Aplicación, el usuario debe proporcionar una dirección de correo electrónico válida y una contraseña. Opcionalmente, el usuario puede proporcionar credenciales de acceso a portales oficiales (como SÉNECA) para la lectura de información.</p>
+        </section>
 
-<h2>4. Advertising and Analytics</h2>
-<p>The user accepts that anonymized data may be used for analytics and advertising.</p>
+        <section id="acceso-servicios-externos">
+            <h2>3. Acceso a Servicios Externos</h2>
+            <p>
+            La Aplicación utiliza las credenciales proporcionadas por el usuario para leer y mostrar información personal proveniente de portales oficiales.
+            </p>
+            <ul>
+                <li>**Limitación:** Info Docente actúa únicamente como lector de datos. **No modifica, edita ni realiza acciones** en nombre del usuario en los portales oficiales.</li>
+                <li>**Responsabilidad de Credenciales:** El usuario es el único responsable de la seguridad y confidencialidad de las credenciales que ingrese.</li>
+            </ul>
+        </section>
 
-<h2>5. Prohibited Actions</h2>
-<ul>
-<li>Illegal use</li>
-<li>Data scraping</li>
-<li>Reverse engineering</li>
-<li>Accessing other users’ data</li>
-<li>Copying or distributing the app without permission</li>
-</ul>
+        <section id="publicidad-analitica">
+            <h2>4. Publicidad y Analítica</h2>
+            <p>El usuario acepta que datos de uso anonimizados y agregados podrán ser utilizados para fines de analítica y optimización de la Aplicación, y para la inserción de publicidad no invasiva.</p>
+        </section>
 
-<h2>6. Suspension</h2>
-<p>The developer may block accounts in case of misuse.</p>
+        <section id="acciones-prohibidas">
+            <h2>5. Acciones Prohibidas</h2>
+            <p>El uso de la Aplicación para las siguientes actividades está estrictamente prohibido:</p>
+            <ul>
+                <li>Uso ilegal, fraudulento o contrario a la buena fe.</li>
+                <li>Extracción masiva de datos (*data scraping*) o minería de información.</li>
+                <li>Ingeniería inversa, descompilación o intento de obtener el código fuente.</li>
+                <li>Acceso, alteración o intento de obtener datos de otros usuarios.</li>
+                <li>Copiar, distribuir o explotar la Aplicación sin permiso expreso.</li>
+            </ul>
+        </section>
 
-<h2>7. Liability</h2>
-<p>
-The developer is not responsible for errors in external data, system failures, or decisions made based on app information.
-</p>
+        <section id="suspension-cuenta">
+            <h2>6. Suspensión y Terminación</h2>
+            <p>El desarrollador se reserva el derecho de suspender o bloquear la cuenta de cualquier usuario que incumpla gravemente estos Términos o haga un uso indebido de la Aplicación, sin previo aviso.</p>
+        </section>
 
-<h2>8. Disclaimer</h2>
-<p>
-Info Docente is not an official app and has no affiliation with the Junta de Andalucía.  
-It provides informational access only and does not replace official procedures.
-</p>
+        <section id="limitacion-responsabilidad">
+            <h2>7. Limitación de Responsabilidad</h2>
+            <p>
+            El desarrollador no se responsabiliza por:
+            </p>
+            <ul>
+                <li>Errores, inexactitudes o retrasos en la información obtenida de portales externos.</li>
+                <li>Fallos en el sistema, interrupciones o indisponibilidad temporal del servicio.</li>
+                <li>Decisiones personales, profesionales o académicas tomadas por el usuario basándose en la información de la Aplicación.</li>
+            </ul>
+        </section>
 
-<h2>9. Account Deletion</h2>
-<p>Users can email <strong>infodocente@gmail.com</strong> to request deletion.</p>
+        <section id="disclaimer">
+            <h2>8. Descargo de Responsabilidad (Relación Oficial)</h2>
+            <p>
+            Info Docente **no es una aplicación oficial** y no tiene ninguna afiliación, patrocinio o respaldo por parte de la **Junta de Andalucía** ni de ningún organismo público. La Aplicación proporciona un acceso informativo y de ayuda a la organización personal, y **no sustituye los procedimientos ni la documentación oficial**.
+            </p>
+        </section>
 
-<h2>10. Changes</h2>
-<p>The developer may modify these Terms and will notify users of significant changes.</p>
+        <section id="eliminacion-cuenta">
+            <h2>9. Eliminación de Cuenta</h2>
+            <p>Los usuarios pueden solicitar la eliminación de su cuenta y de todos sus datos asociados enviando un correo electrónico a <strong><a href="mailto:infodocente@gmail.com">infodocente@gmail.com</a></strong>. La eliminación se realizará en un plazo razonable.</p>
+        </section>
 
-<h2>11. Governing Law</h2>
-<p>These terms are governed by Spanish law.</p>
+        <section id="cambios-terminos">
+            <h2>10. Modificaciones</h2>
+            <p>El desarrollador podrá modificar estos Términos en cualquier momento. Los usuarios serán notificados de cualquier cambio significativo a través de la Aplicación o por correo electrónico.</p>
+        </section>
+
+        <section id="ley-aplicable">
+            <h2>11. Ley Aplicable</h2>
+            <p>Estos Términos y Condiciones se rigen e interpretan de acuerdo con la **ley española**.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Info Docente. Todos los derechos reservados.</p>
+        </footer>
+    </div>
 
 </body>
 </html>
